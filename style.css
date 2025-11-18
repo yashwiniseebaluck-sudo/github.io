@@ -1,0 +1,54 @@
+/* This styles the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* This styles the navigation bar */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* This styles your main introduction */
+#about {
+    text-align: center;
+    padding: 3rem;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Custom styles for your portfolio */
+#scrollTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Keep it in place while scrolling */
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; /* Make sure it's on top of other content */
+  border: none;
+  outline: none;
+  background-color: #555; /* A dark grey */
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#scrollTopBtn:hover {
+  background-color: #333; /* Darker on hover */
+}
